@@ -4,6 +4,8 @@
 /* width */
 /*width*/
 .all{
+  overflow-x: hidden !important;
+  overflow-y:hidden !important;
   position: absolute;
   width: 100%;
   height: 100%;
