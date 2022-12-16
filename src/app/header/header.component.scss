@@ -1,20 +1,40 @@
+header{
+  display: flex;
+  overflow-x: hidden !important;
+  padding:0px;
+  margin: 0px;
+  width:100%;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  padding-right: 17px; /* Increase/decrease this value for cross-browser compatibility */
+  box-sizing: content-box;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+header::-webkit-scrollbar{
+  overflow-x: hidden !important;
+}
+
+
+
+
 
 .upperRectangle{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 4.8px 195.6px 4.8px 195.6px;
-    
-    width: 1531.2px;
+    width: 100%;
     height: 29.1px;
-    
+    overflow: hidden;
     background: #07393C;
-    
+
     /* Inside auto layout */
-    
+
     }
 
-    
+
 .aboveRectangle{
 
     position: absolute;
@@ -22,9 +42,10 @@
     left: 41.67%;
     right: 0%;
     top:18px;
+    overflow: hidden;
     }
 
-    
+
 .homeNav{
     display:flex;
     padding:2px;
@@ -38,24 +59,25 @@
     left: 71.82%;
     right: 86.92%;
     top: 85.45px;
+
   }
   .homeNav a{
     text-decoration: none;
     color: #59585B;
     padding:27px;
   }
-  //in testing 
+  //in testing
   // .homeNav a:active{
-  //   font-weight: bold ; 
+  //   font-weight: bold ;
   // }
 
   // .homeNav a:focus {
-  //   font-weight: bold ; 
+  //   font-weight: bold ;
   // }
   // .homeNav a:target {
-  //   font-weight: bold ; 
+  //   font-weight: bold ;
   // }
-  
+
 .hello{
     position: absolute;
   height: 20px;
@@ -66,19 +88,19 @@
   height: 20px;
   left: 21.03%;
   right: 1.41%;
-  
+
   font-family: 'Titillium Web';
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 19px;
   /* identical to box height, or 128% */
-  
+
   display: flex;
   align-items: center;
   color: #59585B;
   }
-  
+
   .ItemsNo{
     position: absolute;
     height: 20px;
@@ -89,21 +111,21 @@
     height: 20px;
     left: 42.03%;
     right: 2.41%;
-  
+
     font-family: 'Titillium Web';
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 19px;
     /* identical to box height, or 128% */
-  
+
     display: flex;
     align-items: center;
-  
+
     color: #59585B;
-  
+
   }
-  
+
   .location{
     position: absolute;
     height: 20px;
@@ -114,40 +136,40 @@
     height: 20px;
     left: 63.03%;
     right: 2.41%;
-  
+
     font-family: 'Titillium Web';
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 19px;
     /* identical to box height, or 128% */
-  
+
     display: flex;
     align-items: center;
-  
+
     color: #59585B;
   }
-  
+
 .CallUs{
     position: absolute;
     height: 20px;
     left: 17.54%;
     right: -0.19%;
     top: 18px;
-  
+
     font-family: 'Titillium Web';
     font-style: normal;
     font-weight: 600;
     font-size: 13px;
     line-height: 20px;
     /* identical to box height, or 150% */
-  
+
     display: flex;
     align-items: center;
-  
+
     color: #FFFFFF;
   }
-  
+
   .DeliveryTime{
     position: absolute;
   width: 169px;
@@ -161,18 +183,18 @@
   font-size: 13px;
   line-height: 20px;
   /* identical to box height, or 150% */
-  
+
   display: flex;
   align-items: center;
   text-align: center;
-  
+
   color: #FFFFFF;
   }
-  
+
   .payment{
     /* Easy Payment Methods */
-  
-  
+
+
   position: absolute;
   width: 132px;
   height: 20px;
@@ -185,14 +207,14 @@
   font-size: 13px;
   line-height: 20px;
   /* identical to box height, or 150% */
-  
+
   display: flex;
   align-items: center;
   text-align: center;
-  
+
   color: #FFFFFF;
   }
-  
+
   hr{
   position: absolute;
   height: 1px;
