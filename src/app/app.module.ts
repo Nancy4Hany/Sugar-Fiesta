@@ -9,12 +9,9 @@ import { ProductsComponent } from './products/products.component';
 import { MenuComponent } from './menu/menu.component';
 import { HeaderComponent } from './header/header.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
-<<<<<<< HEAD
 import { ProfileComponent } from './profile/profile.component';
-=======
 import { PaymentComponent } from './payment/payment.component';
 import { SignupComponent } from './signup/signup.component';
->>>>>>> 2f0c2a4b6f05e442a765936153fa862a846f3220
 
 @NgModule({
   declarations: [
@@ -25,12 +22,9 @@ import { SignupComponent } from './signup/signup.component';
     MenuComponent,
     HeaderComponent,
     DashboardComponent,
-<<<<<<< HEAD
-    ProfileComponent
-=======
+    ProfileComponent,
     PaymentComponent,
     SignupComponent
->>>>>>> 2f0c2a4b6f05e442a765936153fa862a846f3220
   ],
   imports: [
     BrowserModule,
