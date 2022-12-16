@@ -1,1 +1,47 @@
-<p>products works!</p>
+
+<link rel="stylesheet" href="../products/products.component.scss">
+<div class="maindiv">
+    <ol class="directory">
+      <li><a href="/home" class="li-link">Home </a></li>
+      <li> > </li>
+      <li><a href="/home" class="li-link"> Asian Delights</a></li>
+      <li> > </li>
+      <li class="current"> Oddly Shaped Sweets</li>
+    </ol>
+    <img src="https://thumbs.dreamstime.com/b/indian-sweets-13868613.jpg"class="item-img">
+    <h2 class="item-title">Oddly Shaped Sweets</h2>
+    <h3 class="item-price">30 EGP</h3>
+    <h5 class="vat-details">VAT included</h5>
+    <img src="../../assets/rating.svg" class="rating">
+    <h5 class="Customer-rating"> (1 Customer Review)</h5>
+    <a href="#" class="add-review"> + Add a review</a>
+    <img src="../../assets/div_border.svg" class="border1">
+    <h5 class="item-desc">Sweets that are shaped like balls and decorated with sesame seeds (The <br> product may differ from the image daily) <br> Nutritional Values (Per 100g): </h5>
+    <img src="../../assets/div_border.svg" class="border2">
+    <ul class="nut-facts">
+        <li>150 Calories</li>
+        <li>3g protein</li>
+        <li>2g fat</li>
+        <li>30g carbs</li>
+        <li>20g sugar</li>
+    </ul>
+    <h5 class="size-loc">Size <select class="select-box">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+    </select></h5>
+    <h5 class="quantity-loc"> Quantity</h5>
+    <div class="icons">
+        <img src="../../assets/minus.svg" class="minus">
+        <img src="../../assets/plus.svg" class="plus">
+        <img src="../../assets/div.svg" class="holder">
+    </div>
+    <button class="add-to-cart">Add to Cart</button>
+    <img src="../../assets/div_border.svg" class="border3">
+    <div class="dlv">
+    <h5 class="dlv-wthn"> Delievered within : </h5>
+    <h5 class="dlv-desc"> 30-60 minutes</h5>
+    </div>
+    <img src="https://thumbs.dreamstime.com/b/indian-sweets-13868613.jpg" class="preview">
+</div>
+<router-outlet></router-outlet>

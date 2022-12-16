@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+.directory{
+    list-style-type: none;
+    margin-left: 150px;
+}
+.directory li{
+    display: inline-block;
+    font-family: "Titillium Web", sans-serif;
+    text-decoration: none;
+    
+}
+.current {
+    font-weight: bold;
+    color:#07393C;
+}
+.li-link{
+    text-decoration: none;
+    color:#59585B;
+    font-family: "Titillium Web", sans-serif;
+}
+.item-img{
+    width:500px;
+    height:500px;
+    border-radius: 20px;
+    margin-top: 80px;
+    margin-left: 150px;
+    float:left;
+}
+.item-title{
+    float:left;
+    margin-top:110px;
+    padding-left: 40px;
+    color:#59585B;
+    font-family: "Titillium Web", sans-serif;
+    
+}
+.item-price{
+    float:left;
+    margin-top:150px;
+    margin-left: -218px;
+    color:#59585B;
+    font-family: "Titillium Web", sans-serif;
+}
+.vat-details{
+    float:left;
+    margin-top:185px;
+    margin-left: -218px;
+    color:#59585B;
+    font-family: "Titillium Web", sans-serif;
+}
+.rating{
+    float:left;
+    margin-top:210px;
+    margin-left: -218px;
+    color:#59585B;
+}
+.Customer-rating{
+    float:left;
+    margin-top:211px;
+    margin-left: -120px;
+    color:#59585B;
+    font-family:"Titillium Web", sans-serif;
+}
+.add-review{
+    float:left;
+    margin-top:208.5px;
+    margin-left: 10px;
+    color:#59585B;
+    font-family:"Titillium Web", sans-serif;
+}
+.border1{
+    float:left;
+    margin-top:245px;
+    margin-left: -329px;
+    color:#6011ff;
+    font-family:"Titillium Web", sans-serif;
+}
+.item-desc{
+    float:left;
+    margin-top:255px;
+    margin-left: -534px;
+    color:#59585B;
+    font-family:"Titillium Web", sans-serif;
+}
+.border2{
+    float:left;
+    margin-top:325px;
+    margin-left: -541px;
+}
+.nut-facts{
+    float:left;
+    margin-top:325px;
+    margin-left: -553px;
+    color:#59585B;
+    font-family:"Titillium Web", sans-serif;
+}
+.size-loc{
+    float:left;
+    margin-top:475px;
+    margin-left: -534px;
+    color:#59585B;
+    font-family:"Titillium Web", sans-serif;
+}
+.select-box{
+    width: 40px;
+    height: 30px;
+    font-size: 16px;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.quantity-loc{
+    float:left;
+    margin-top:480px;
+    margin-left: -280px;
+    color:#59585B;
+    font-family:"Titillium Web", sans-serif;
+}
+.plus{
+    float:left;
+    margin-top:480px;
+    margin-left: -240px;
+    color:#59585B;
+    z-index: 1;
+    position: absolute;
+    margin-left: -140px;
+    font-family:"Titillium Web", sans-serif;
+}
+.minus{
+    float:left;
+    margin-top:480px;
+    position:absolute;
+    z-index: 1;
+    margin-left: -212px;
+    color:#59585B;
+    font-family:"Titillium Web", sans-serif;
+}
+.holder{
+    float:left;
+    margin-top:467px;
+    z-index: 2;
+    margin-left: -230px;
+    color:#59585B;
+    font-family:"Titillium Web", sans-serif;
+}
+.icons{
+    float:left;
+    margin-left: 10px;
+}
+.add-to-cart{
+    float:left;
+    margin-top:590px;
+    margin-left: -480px;
+    color:#59585B;
+    width: 300px;
+    height: 36px;
+    background-color: #07393C;
+    color: #fff;
+    border-radius: 4px;
+    fill: solid;
+    font-family: "Titillium Web", sans-serif;
+    box-shadow: 10px 10px 5px #000;
+}
+.border3{
+    margin-top:550px;
+    position: absolute;
+    margin-left: -550px;
+}
+.dlv-wthn{
+    float:left;
+    margin-top:130px;
+    margin-left: 150px;
+    color:#424145;
+    font-weight: bold;
+    font-family:"Titillium Web", sans-serif;
+}
+.dlv-desc{
+    float:left;
+    margin-top:130px;
+    color:#59585B;
+    font-family:"Titillium Web", sans-serif;
+}
+.dlv{
+    margin-top: 530px;
+}
+.preview{
+    width:120px;
+    height:100px;
+    border-radius: 20px;
+    margin-top: 90px;
+    margin-left: -640px;
+    position: absolute;
+    float:left;
+}
