@@ -1,0 +1,146 @@
+h1{
+    font-family: 'Cursive';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 65px;
+    text-align: center;
+    
+    color: #F8D0A1;
+}
+#username{
+    position: absolute;
+    left: 12.69%;
+    right: 52.86%;
+    top: 15.62%;
+    bottom: 75.74%;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+    border: none;
+}
+#email{
+position: absolute;
+left: 12.5%;
+right: 53.06%;
+top: 28.12%;
+bottom: 63.24%;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 24px;
+border: none;
+}
+#pass{
+
+    position: absolute;
+        left: 12.62%;
+        right: 52.93%;
+        top: 39.36%;
+        bottom: 52.01%;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 24px;
+        border: none;
+      
+}
+#cpass{
+position: absolute;
+left: 12.49%;
+right: 53.07%;
+top: 52.05%;
+bottom: 39.31%;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 24px;
+border: none;
+}
+
+::placeholder{
+    padding-left: 15px;
+    size: 32px;
+    text-align: left;
+}
+input{
+    padding-left: 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(55%, 53%);
+    font-variant: normal;
+ }
+#terms{ 
+    font-family: 'Gill Sans', 'Gill Sans MT' 'Trebuchet MS', sans-serif;
+    font-style: bold italic;
+    font-size: 16px;
+    height: 25px;
+    line-height: 100%;
+    text-align: center;
+    vertical-align: top;
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-variant: normal;
+    color: #07393C;
+    ;
+}
+.button{ 
+    height: 60px;
+    width: 300px;
+    position: absolute;
+    top: 79%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-variant: normal;
+    background: linear-gradient(to left,#A65A71, #EACAAB);
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 25px;
+}
+.google{ 
+    position: absolute;
+    top: 84%;
+    left: 40%;
+    transform: translate(-50%, 100%);
+    width: 60px;
+    height: 60px;
+ }
+.facebook{ 
+    position: absolute;
+    top: 87%;
+    left: 60%;
+    transform: translate(-50%, 100%);
+    width: 45px;
+    height: 45px;
+ }
+
+ .apple
+ {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, 100%);
+    width: 55px;
+    height: 55px;
+ }
+ .with{  
+    font-size: 20px;
+    color:#7A4942;
+    font-family: lato;
+    font-style: bold;
+    text-align: center;
+    position: absolute;
+    top: 71%;
+    left: 50%;
+    transform: translate(-50%, 100%);
+ }
+.logo{
+    position: absolute;  
+}
