@@ -1,0 +1,199 @@
+h1 {
+    top: 5%;
+    left: 10%;
+    transform: translate(40%, 180%);
+    font-size: 48px;
+
+}
+
+body {
+    overflow-x: hidden;
+    /* overflow-y:hidden; */
+}
+
+.rec1 {
+    height: 500px;
+    width: 410px;
+    transform: translate(80%, 20%);
+    /* background-color: linear-gradient(to right,#654C4F,#B26E63); */
+    /* background-color: linear-gradient(rgba(101, 76, 79, 0.2),rgba(178, 110, 99, 0.5)); */
+    background-image: linear-gradient(10deg, rgb(101, 76, 79), rgb(178, 110, 99));
+    box-shadow: 10px 10px 8px 10px gray;
+    top: 50px;
+}
+
+.rec2 {
+    height: 500px;
+    width: 410px;
+    transform: translate(180%, -83.3%);
+    background-color: azure;
+    box-shadow: 10px 10px 8px 10px gray;
+}
+
+h2 {
+    color: aliceblue;
+    font-size: 30px;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#heading2{
+    font-size: 20px;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+#para{
+    color: darkgray;
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+::placeholder {
+    padding-left: 15px;
+    size: 32px;
+    text-align: left;
+}
+
+input,
+textarea {
+    padding-left: 35px;
+    position: absolute;
+    top: 20%;
+    left: -10%;
+    transform: translate(55%, 50%);
+    font-variant: normal;
+}
+
+#contuct-us {
+    /*button login*/
+    height: 40px;
+    width: 140px;
+    position: absolute;
+    top: 68%;
+    bottom: 40%;
+    left: 10%;
+    transform: translate(10%, 140%);
+    font-variant: normal;
+    background-color: #EACAAB;
+    border: none;
+    padding: 15px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    align-items: left;
+}
+
+#area {
+    /*text area*/
+    position: absolute;
+    left: 12.62%;
+    right: 52.93%;
+    top: 39.36%;
+    bottom: 52.01%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    height: 100px;
+    width: 300px;
+    transform: translate(-5%, 70%);
+}
+
+#email {
+
+    position: absolute;
+    left: 12.62%;
+    right: 52.93%;
+    top: 39.36%;
+    bottom: 52.01%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+    height: 60px;
+    width: 300px;
+    transform: translate(-5%, -20%);
+}
+
+#name {
+    position: absolute;
+    left: 12.5%;
+    right: 53.06%;
+    top: 28.12%;
+    bottom: 63.24%;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+    align-items: center;
+    margin: auto;
+    height: 60px;
+    width: 300px;
+    transform: translate(-5%, -30%);
+}
+#gmail{
+    /*gmail icon*/
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    /* transform: translate(-50%, 100%); */
+    width: 40px;
+    height: 40px;
+}
+.g{ /*text of gmail*/
+    position: absolute;
+    top: 25%;
+    left: 45%;
+    transform: translate(-50%, 100%);
+}
+#facebook{
+    /*facebook icon*/
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    transform: translate(-50%, 100%);
+    width: 40px;
+    height: 40px;
+}
+.f{ /*text for facebook*/
+    position: relative;
+    top: 17%;
+    left: 85%;
+    transform: translate(-50%, 100%);
+}
+#instagram{
+    /*instagram icon*/
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(-50%, 100%);
+    width: 40px;
+    height: 40px;
+}
+.insta{ /*text for insta*/
+    position: relative;
+    top: 24%;
+    left: 85%;
+    transform: translate(-50%, 100%);
+}
+#phone{
+    /*phone icon*/
+    position: absolute;
+    top: 65%;
+    left: 15%;
+    transform: translate(-50%, 100%);
+    width: 40px;
+    height: 40px;
+}
+.phone{ /*text for phone*/
+    position: relative;
+    top: 29%;
+    left: 43%;
+    transform: translate(-50%, 100%);
+    text-align: center;
+}
