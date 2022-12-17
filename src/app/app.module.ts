@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -9,9 +8,12 @@ import { ProductsComponent } from './products/products.component';
 import { MenuComponent } from './menu/menu.component';
 import { HeaderComponent } from './header/header.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import { ProfileComponent } from './profile/profile.component';
-import { PaymentComponent } from './payment/payment.component';
-import { SignupComponent } from './signup/signup.component';
+import { DashboarditemsComponent } from './dashboarditems/dashboarditems.component';
+import { DashboardusersComponent } from './dashboardusers/dashboardusers.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
+import { LoginComponent } from './login/login.component';
+import { AboutUsComponent } from './about-us/about-us.component';
+import { OrderHistoryComponent } from './order-history/order-history.component';
 
 @NgModule({
   declarations: [
@@ -22,9 +24,12 @@ import { SignupComponent } from './signup/signup.component';
     MenuComponent,
     HeaderComponent,
     DashboardComponent,
-    ProfileComponent,
-    PaymentComponent,
-    SignupComponent
+    DashboarditemsComponent,
+    DashboardusersComponent,
+    ContactUsComponent,
+    LoginComponent,
+    AboutUsComponent,
+    OrderHistoryComponent
   ],
   imports: [
     BrowserModule,
