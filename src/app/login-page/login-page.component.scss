@@ -196,8 +196,34 @@
 //       font-weight: 100;
 
 // }
+h1 {
+  height: 93px;
+  width: 413px;
+  left: 453px;
+  top: 49px;
+  border-radius: 0;
+  font-family: 'Leckerli One', cursive;
+  font-style: normal;
+  size: 64px;
+  line-height: 86px;
+  line-height: 100%;
+  text-align: center;
+  vertical-align: top;
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 86px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #DDBFA7;
+  position: absolute;
+  top: 35%;
+  left: 46%;
+  transform: translate(-50%, -50%);
+  font-variant: normal;
 
-.loginBackground{
+}
+
+.loginBackground {
   position: absolute;
   width: 100%;
   left: 0px;
@@ -205,25 +231,26 @@
   height: 808px;
   // left: 40px;
   // top: 62px;
-  overflow:hidden ;
-  }
-  .loginBackground img{
-  width: 100%;
-  }
-
-.glassy{
-position: absolute;
-width: 782.8px;
-height: 665.53px;
-left: 316.52px;
-top: 261px;
-background: linear-gradient(89.31deg, #EACAAB 3.66%, rgba(232, 215, 196, 0.31) 36.66%);
-border-radius: 138px;
-transform: rotate(-90.26deg);
+  overflow: hidden;
 }
 
-.email input{
-  overflow:hidden;
+.loginBackground img {
+  width: 100%;
+}
+
+.glassy {
+  position: absolute;
+  width: 782.8px;
+  height: 665.53px;
+  left: 316.52px;
+  top: 261px;
+  background: linear-gradient(89.31deg, #EACAAB 3.66%, rgba(232, 215, 196, 0.31) 36.66%);
+  border-radius: 138px;
+  transform: rotate(-90.26deg);
+}
+
+.email input {
+  overflow: hidden;
   position: absolute;
   left: 30.97%;
   right: 34.58%;
@@ -235,34 +262,34 @@ transform: rotate(-90.26deg);
   border-color: Transparent;
   outline: none;
   height: 88.43px;
-// resize: none; /*remove the resize handle on the bottom right*/
+  // resize: none; /*remove the resize handle on the bottom right*/
 }
 
-::placeholder{
-position: absolute;
-left: 27.26%;
-top: 29.36%;
-font-family: 'DM Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 18px;
-text-align: center;
-align-content: center;
-justify-content: center;
-justify-items: center;
-align-items: center;
-width: 200px;
-color: #2C2929;
-opacity: 0.4;
+::placeholder {
+  position: absolute;
+  left: 27.26%;
+  top: 29.36%;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 18px;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  width: 200px;
+  color: #2C2929;
+  opacity: 0.4;
 }
 
-.password input{
-  overflow:hidden;
+.password input {
+  overflow: hidden;
   position: absolute;
   left: 30.97%;
   right: 34.58%;
-  top: 73.34%;
+  top: 70.34%;
   background: #FFFFFF;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 24px;
@@ -270,57 +297,128 @@ opacity: 0.4;
   border-color: Transparent;
   outline: none;
   height: 88.43px;
-// resize: none; /*remove the resize handle on the bottom right*/
+  // resize: none; /*remove the resize handle on the bottom right*/
 }
 
-.password ::placeholder{
-position: absolute;
-left: 27.26%;
-top: 29.36%;
-font-family: 'DM Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 18px;
-text-align: center;
-align-content: center;
-justify-content: center;
-justify-items: center;
-align-items: center;
-width: 200px;
-color: #2C2929;
-opacity: 0.4;
+.password ::placeholder {
+  position: absolute;
+  left: 27.26%;
+  top: 29.36%;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 18px;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  width: 200px;
+  color: #2C2929;
+  opacity: 0.4;
 }
 
 
-.login button{
+.login button {
   background: none;
-	color: inherit;
-	border: none;
-	padding: 0;
-	font: inherit;
-	cursor: pointer;
-	outline: inherit;
-box-sizing: border-box;
-position: absolute;
-width: 530px;
-height: 95px;
-left: 30.46%;
-top: 89.36%;
-z-index: 1;
-background: radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgb(238,210,178) 0%, rgb(145,86,80) 77.08%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
-background-blend-mode: normal, overlay, normal;
-backdrop-filter: blur(40px);
-/* Note: backdrop-filter has minimal browser support */
-border-radius: 59px;
-font-family: 'Titillium Web';
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 67px;
-/* identical to box height, or 338% */
-line-height: 1em;
-vertical-align: middle;
-color: #FFFFFF;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  box-sizing: border-box;
+  position: absolute;
+  width: 530px;
+  height: 95px;
+  left: 30.46%;
+  top: 89.36%;
+  z-index: 1;
+  background: radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgb(238, 210, 178) 0%, rgb(145, 86, 80) 77.08%)
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+  ;
+  background-blend-mode: normal, overlay, normal;
+  backdrop-filter: blur(40px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 59px;
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 67px;
+  /* identical to box height, or 338% */
+  line-height: 1em;
+  vertical-align: middle;
+  color: #FFFFFF;
+
+}
+
+.with {
+  /* login with */
+  font-size: 20px;
+  color: black;
+  font-family: lato;
+  font-style: bold;
+  text-align: center;
+  position: absolute;
+  top: 100%;
+  left: 48%;
+  transform: translate(-50%, 100%);
+}
+
+.google {
+  /*google icon*/
+  position: absolute;
+  top: 102%;
+  left: 38%;
+  transform: translate(-50%, 100%);
+  width: 60px;
+  height: 60px;
+}
+
+.facebook {
+  /*facebook icon*/
+  position: absolute;
+  top: 106%;
+  left: 56%;
+  transform: translate(-50%, 100%);
+  width: 45px;
+  height: 45px;
+}
+
+.apple
+
+/*apple icon*/
+  {
+  position: absolute;
+  top: 103%;
+  left: 47%;
+  transform: translate(-50%, 100%);
+  width: 55px;
+  height: 55px;
+}
+
+#dont {
+  /*don't have an account*/
+  color: #7A4942;
+  font-size: 15px;
+  position: absolute;
+  top: 117%;
+  left: 40%;
+  // transform: translate(-50%, 10%);
+  font-style: bold;
+  font-weight: 100;
+}
+
+#signup {
+  color: #07393C;
+  font-size: 15px;
+  position: absolute;
+  top: 117%;
+  left: 50%;
+  // transform: translate(-50%, 100%);
+  font-style: bold;
+  font-weight: 100;
 
 }
