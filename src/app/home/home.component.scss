@@ -3,34 +3,39 @@
 // }
 /* width */
 /*width*/
-html::-webkit-scrollbar{
-  position:absolute;
-  display:none; 
-  overflow-x: hidden !important;
-}
-body::-webkit-scrollbar{
-  overflow-x: hidden !important;
-}
+// html::-webkit-scrollbar{
+//   position:absolute;
+//   display:none;
+//   overflow-x: hidden !important;
+// }
+// body::-webkit-scrollbar{
+//   overflow-x: hidden !important;
+// }
 
 .all{
-  overflow: hidden !important; 
+  position:absolute;
+    width: 100%;
+    // transition: 0.5s;
+    // z-index: 0;
+  // overflow-x: hidden !important;
+
 }
 
 
 
-body{
-  overflow:hidden ;
-  display: inline-block;
-  padding:0px;
-  margin: 0px;
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
-  padding-right: 17px; /* Increase/decrease this value for cross-browser compatibility */
-  box-sizing: content-box;
-  top: 0;
-  bottom: 0;
-  left: 0;
-}
+// body{
+//   overflow:hidden ;
+//   display: inline-block;
+//   padding:0px;
+//   margin: 0px;
+//   -ms-overflow-style: none;  /* IE and Edge */
+//   scrollbar-width: none;  /* Firefox */
+//   padding-right: 17px; /* Increase/decrease this value for cross-browser compatibility */
+//   box-sizing: content-box;
+//   top: 0;
+//   bottom: 0;
+//   left: 0;
+// }
 
 .upperBackgroundImage {
   overflow : hidden !important;

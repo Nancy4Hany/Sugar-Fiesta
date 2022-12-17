@@ -1,6 +1,5 @@
 header{
   display: flex;
-  overflow-x: hidden !important;
   padding:0px;
   margin: 0px;
   width:100%;
@@ -12,9 +11,9 @@ header{
   bottom: 0;
   left: 0;
 }
-header::-webkit-scrollbar{
-  overflow-x: hidden !important;
-}
+// header::-webkit-scrollbar{
+//   overflow-x: hidden !important;
+// }
 
 
 
@@ -60,11 +59,23 @@ header::-webkit-scrollbar{
     right: 86.92%;
     top: 85.45px;
 
+
   }
   .homeNav a{
     text-decoration: none;
     color: #59585B;
     padding:27px;
+
+  }
+  .all{
+    position:absolute;
+    overflow-x: hidden !important;
+    overflow-y: hidden !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: 0.5s;
+    z-index: 0;
   }
   //in testing
   // .homeNav a:active{
@@ -193,8 +204,6 @@ header::-webkit-scrollbar{
 
   .payment{
     /* Easy Payment Methods */
-
-
   position: absolute;
   width: 132px;
   height: 20px;
