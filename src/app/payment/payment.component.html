@@ -1,1 +1,71 @@
-<p>payment works!</p>
+<div class="container">
+    <div class="header">
+    </div>
+    <h1>Payment method</h1>
+    <input type="checkbox" id="method1" name="vehicle1" value="Bike">
+  <label for="method1"> Pay cash on delivery</label><br>
+  <input type="checkbox" id="method2" name="vehicle2" value="Car">
+  <label for="method2"> Debit/Credit Cards</label><br>
+  <div class="card">
+<div class="card2"> <img class="image-5" src="./assets/images/image-5.svg" ></div>
+<div class=" form">
+<!-- Date Field -->
+<div class="date-field">
+    <div class="savedcard">
+        <label class="usesavedcard"> Use saved card :     </label>
+      <select name="mastercard" class="mastercard">
+        <option value="mastercard">mastercard</option>
+        <option value="visa">visa</option>
+      </select><br>
+    </div>
+<!-- Cardholder -->
+<label class="cardholdlabel">Name on card :</label><br>
+<input type="text" class="cardholder" placeholder="Esther Howard"> <br>
+<img class="profile-tick" src="./assets/images/profile-tick.svg" >
+<!-- Card Number -->
+Group 3
+<label class="cardnumlabel">Card number :</label><br>
+<input type="text" class="card-number" placeholder="123-456-789-"> <br>
+<img class="Group-3" src="./assets/images/Group-3.svg" >
+<!--expiry date-->
+<label class="expirydatelabel"> Expiry date :     </label>
+<div class="exp-wrapper">
+    <input autocomplete="off" class="exp" id="month" maxlength="2" pattern="[0-9]*" inputmode="numerical" placeholder="MM" type="text" data-pattern-validate />
+    <input autocomplete="off" class="exp" id="year" maxlength="2" pattern="[0-9]*" inputmode="numerical" placeholder="YY" type="text" data-pattern-validate />
+  </div>
+
+     <!-- Card Verification Field -->
+     <div class="card-verification">
+        <div class="cvv-input">
+          <input type="password" class="CVV" placeholder="CVV" style="background: #EDEDED;">
+        </div>
+    </div>
+      </div> 
+  </div>
+  <img class="Group4" src="./assets/images/Group4.svg" >
+  <img class="Group5" src="./assets/images/Group5.svg" >
+  <img class="Group6" src="./assets/images/Group6.svg" >
+</div>
+<div class="ordersummary">
+    <h1 style="left: 80%;">Order summary</h1>
+    <div class="theorder">
+        <img class="Rectangle11" src="./assets/images/Rectangle11.svg" >
+        <img class="Rectangle12" src="./assets/images/Rectangle12.svg" >
+        <img class="Rectangle13" src="./assets/images/Rectangle13.svg" >
+        <img class="Group7" src="./assets/images/Group7.svg" >
+    </div>
+    <div class="checkout">
+    <div class="checkoutdetails">
+    <p> Product Total</p><br>
+    <p>Discount </p><br>
+    <p>Delivery Fee</p><br>
+    </div>
+    <div class="prices">
+        <p> 124.0LE</p><br>
+        <p>6% </p><br>
+        <p> Free</p><br>
+    </div>
+        <button type="submit" class="orderbutton"> Order </button>
+    </div>
+</div>
+  </div>
