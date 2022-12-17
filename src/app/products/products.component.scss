@@ -161,6 +161,10 @@
     fill: solid;
     font-family: "Titillium Web", sans-serif;
     box-shadow: 10px 10px 5px #000;
+    transition: 0.5s;
+}
+.add-to-cart:hover{
+    background-color: #0A4C4F;
 }
 .border3{
     margin-top:550px;
@@ -192,4 +196,8 @@
     margin-left: -640px;
     position: absolute;
     float:left;
+}
+.maindiv{
+    margin-top: 150px;
+    position: absolute;
 }

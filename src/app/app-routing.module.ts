@@ -7,6 +7,8 @@ import { LoginPageComponent} from 'src/app/login-page/login-page.component';
 import { SignupComponent} from 'src/app/signup/signup.component';
 import{ ContactUsComponent}from 'src/app/contact-us/contact-us.component';
 import{ AboutUsComponent}from 'src/app/about-us/about-us.component';
+import{ CartComponent}from 'src/app/cart/cart.component';
+import { ProductsComponent } from './products/products.component';
 const routes: Routes = [
 {path:'',redirectTo:'home', pathMatch: 'full' },
 {path: 'header', component: HeaderComponent},
@@ -15,7 +17,11 @@ const routes: Routes = [
 { path: 'home', component: HomeComponent },
 { path: 'menu', component: MenuComponent },
 {path: 'contactus', component:  ContactUsComponent},
-{path: 'aboutus', component:  AboutUsComponent}
+{path: 'aboutus', component:  AboutUsComponent},
+{path: 'login', component: LoginPageComponent},
+{path: 'cart', component: CartComponent},
+{path: 'products', component:ProductsComponent},
+{path: 'signup', component: SignupComponent}
 ];
 
 @NgModule({
