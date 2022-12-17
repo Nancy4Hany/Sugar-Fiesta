@@ -8,12 +8,12 @@ import { ProductsComponent } from './products/products.component';
 import { MenuComponent } from './menu/menu.component';
 import { HeaderComponent } from './header/header.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import { DashboarditemsComponent } from './dashboarditems/dashboarditems.component';
 import { DashboardusersComponent } from './dashboardusers/dashboardusers.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
-import { LoginComponent } from './login/login.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { OrderHistoryComponent } from './order-history/order-history.component';
+import { ItemsdashboardComponent } from './itemsdashboard/itemsdashboard.component';
+import { LoginPageComponent } from './login-page/login-page.component';
 
 @NgModule({
   declarations: [
@@ -24,12 +24,12 @@ import { OrderHistoryComponent } from './order-history/order-history.component';
     MenuComponent,
     HeaderComponent,
     DashboardComponent,
-    DashboarditemsComponent,
     DashboardusersComponent,
     ContactUsComponent,
-    LoginComponent,
     AboutUsComponent,
-    OrderHistoryComponent
+    OrderHistoryComponent,
+    ItemsdashboardComponent,
+    LoginPageComponent
   ],
   imports: [
     BrowserModule,

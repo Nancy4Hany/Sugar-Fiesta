@@ -15,6 +15,38 @@ header{
 //   overflow-x: hidden !important;
 // }
 
+.login button{
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+box-sizing: border-box;
+position: absolute;
+width: 116.12px;
+height: 40px;
+left: 81.03%;
+right: 2.41%;
+top:31%;
+z-index: 1;
+background: radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgb(238,210,178) 0%, rgb(145,86,80) 77.08%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+background-blend-mode: normal, overlay, normal;
+backdrop-filter: blur(40px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 59px;
+font-family: 'Titillium Web';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 67px;
+/* identical to box height, or 338% */
+line-height: 1em;
+vertical-align: middle;
+color: #FFFFFF;
+
+}
 
 
 
