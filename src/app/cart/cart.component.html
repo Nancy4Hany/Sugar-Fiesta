@@ -1,1 +1,41 @@
-<p>cart works!</p>
+<link rel="stylesheet" href="../cart/cart.component.scss">
+<div class="maindiv">
+    <ol class="directory">
+      <li><a href="/home" class="li-link">Home </a></li>
+      <li> > </li>
+      <li class="current"> My Cart</li>
+    </ol>
+    <div class="holder">
+      <div class="items">
+        <img src="https://thumbs.dreamstime.com/b/indian-sweets-13868613.jpg" class="item-img">
+        <h2 class="img-name">Example Sweet</h2>
+        <h4 class="img-price">30 EGP</h4>
+        <div class="img-holder">
+          <img src="../../assets/div.svg" class="div">
+          <img src="../../assets/minus.svg" class="minus">
+          <img src="../../assets/plus.svg" class="plus">
+          <img src="../../assets/trash.svg" class="trash">
+        </div>
+      </div>
+      
+      
+      <div class="checkout-card">
+        <div class="detail-card">
+          <h2 class="order-sum"> Order Summary</h2>
+          <h3 class="price-txt"> Item Price(s)</h3>
+          <h3 class="act-price-txt"> 30 EGP</h3>
+          <hr>
+          <h2 class="total-txt"> Total</h2>
+          <h2 class="act-total-txt"> 30 EGP</h2>
+          <hr>
+          <h3 class="detail-del">Delivered Within 45 - 60 mins</h3>
+          <h4 class="detail-del">Order may be delivered late some Minutes in case  of rush hours</h4>
+        </div>
+        <div class="checkout-btn">
+          <button class="checkout">Checkout</button>
+          <button class="continue">Continue Shopping</button>
+          <a href="#" class="cancel">Cancel Order</a>
+      </div>
+    </div>
+  </div>
+  <router-outlet></router-outlet>
