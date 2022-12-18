@@ -14,6 +14,8 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { OrderHistoryComponent } from './order-history/order-history.component';
 import { ItemsdashboardComponent } from './itemsdashboard/itemsdashboard.component';
 import { LoginPageComponent } from './login-page/login-page.component';
+import { HomeuserComponent } from './homeuser/homeuser.component';
+import { HeaderuserComponent } from './headeruser/headeruser.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,9 @@ import { LoginPageComponent } from './login-page/login-page.component';
     AboutUsComponent,
     OrderHistoryComponent,
     ItemsdashboardComponent,
-    LoginPageComponent
+    LoginPageComponent,
+    HomeuserComponent,
+    HeaderuserComponent
   ],
   imports: [
     BrowserModule,

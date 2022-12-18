@@ -5,7 +5,6 @@ h1{
     font-size: 46px;
     line-height: 65px;
     text-align: center;
-    
     color: #F8D0A1;
 }
 #username{
@@ -14,7 +13,7 @@ h1{
     right: 52.86%;
     top: 15.62%;
     bottom: 75.74%;
-    
+
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 24px;
@@ -43,7 +42,7 @@ border: none;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 24px;
         border: none;
-      
+
 }
 #cpass{
 position: absolute;
@@ -71,7 +70,7 @@ input{
     transform: translate(55%, 53%);
     font-variant: normal;
  }
-#terms{ 
+#terms{
     font-family: 'Gill Sans', 'Gill Sans MT' 'Trebuchet MS', sans-serif;
     font-style: bold italic;
     font-size: 16px;
@@ -87,7 +86,7 @@ input{
     color: #07393C;
     ;
 }
-.button{ 
+button{
     height: 60px;
     width: 300px;
     position: absolute;
@@ -104,7 +103,7 @@ input{
     font-size: 20px;
     border-radius: 25px;
 }
-.google{ 
+.google{
     position: absolute;
     top: 84%;
     left: 40%;
@@ -112,7 +111,7 @@ input{
     width: 60px;
     height: 60px;
  }
-.facebook{ 
+.facebook{
     position: absolute;
     top: 87%;
     left: 60%;
@@ -130,7 +129,7 @@ input{
     width: 55px;
     height: 55px;
  }
- .with{  
+ .with{
     font-size: 20px;
     color:#7A4942;
     font-family: lato;
@@ -142,5 +141,5 @@ input{
     transform: translate(-50%, 100%);
  }
 .logo{
-    position: absolute;  
+    position: absolute;
 }

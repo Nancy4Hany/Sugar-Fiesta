@@ -645,7 +645,6 @@ text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
   place-items: center;
   place-content:center;
   left: calc((12.5% - 190px/2 - 0.28px));
-
 }
 
 .product{
@@ -653,9 +652,6 @@ text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
   justify-content: center;
   transition: 0.5s ;
   cursor: pointer;
-  background: linear-gradient(180deg, rgba(247, 247, 247, 0.7) 67.19%, rgba(249, 249, 249, 0.518369) 79.17%, rgba(255, 255, 255, 0) 93.75%, rgba(251, 251, 251, 0.36) 99.99%);
-box-shadow: 0px 3px 3px 1px rgba(206, 174, 155, 0.59);
-border-radius: 20px;
 }
 
 .productText{
