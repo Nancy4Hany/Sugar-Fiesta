@@ -79,7 +79,7 @@ color: #FFFFFF;
 
 .homeNav{
     display:flex;
-    padding:2px;
+    padding:0px;
     margin-bottom: 2px;
     place-items: center;
     place-content:center;
@@ -91,6 +91,8 @@ color: #FFFFFF;
     right: 86.92%;
     top: 85.45px;
     float: left;
+    size: 2px;
+    font-family: sans-serif;
 
   }
   .homeNav a{
@@ -133,7 +135,7 @@ color: #FFFFFF;
   height: 20px;
   // left: 0%;
   // right: 76.02%;
-  top: 42px;
+  top: 40px;
   position: absolute;
   height: 20px;
   left: 21.03%;
@@ -142,7 +144,30 @@ color: #FFFFFF;
   font-family: 'Titillium Web';
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 18px;
+  line-height: 19px;
+  /* identical to box height, or 128% */
+
+  display: flex;
+  align-items: center;
+  color: #59585B;
+  }
+
+  .nancy{
+    position: absolute;
+  height: 20px;
+  // left: 0%;
+  // right: 76.02%;
+  top: 40px;
+  position: absolute;
+  height: 20px;
+  left: 26.5%;
+  right: 1.41%;
+
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
   line-height: 19px;
   /* identical to box height, or 128% */
 
@@ -156,16 +181,16 @@ color: #FFFFFF;
     height: 20px;
     // left: 0%;
     // right: 76.02%;
-    top: 42px;
+    top: 40px;
     position: absolute;
     height: 20px;
-    left: 42.03%;
+    left: 40.03%;
     right: 2.41%;
 
     font-family: 'Titillium Web';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 19px;
     /* identical to box height, or 128% */
 
@@ -181,7 +206,7 @@ color: #FFFFFF;
     height: 20px;
     // left: 0%;
     // right: 76.02%;
-    top: 42px;
+    top: 40px;
     position: absolute;
     height: 20px;
     left: 63.03%;
@@ -190,7 +215,7 @@ color: #FFFFFF;
     font-family: 'Titillium Web';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 19px;
     /* identical to box height, or 128% */
 
@@ -198,6 +223,32 @@ color: #FFFFFF;
     align-items: center;
 
     color: #59585B;
+    margin-right: 100px;
+  }
+
+  .change{
+    position: absolute;
+    height: 20px;
+    // left: 0%;
+    // right: 76.02%;
+    top: 40px;
+    position: absolute;
+    height: 20px;
+    left: 70.03%;
+    right: 2.41%;
+
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 19px;
+    /* identical to box height, or 128% */
+
+    display: flex;
+    align-items: center;
+
+    color: #59585B;
+    margin-right: 100px;
   }
 
 .CallUs{
